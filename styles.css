@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=PT+Serif&family=Roboto:wght@300&display=swap');
+body{
+    background-image:linear-gradient(140deg, #EADEDB 0%, #66bec8 50%, #BFD641 75%);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Roboto;
+    padding-bottom: 180px;
+}
+h1{
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 200;
+    margin: 40px 0;
+}
+
+.btn{
+    padding:auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 3px;
+    width: 53px;
+    height:53px;
+    background-color: #313131;
+    color: white;
+    font-size:large;
+}
+
+.clear-btn, .eql-btn{
+    width:116px;
+}
+
+.operation-btn{
+    background-color: #f69906;
+    color: black;
+}
+
+.row{
+    margin:5px 0;
+}
+
+.input{
+    margin-top:30px;
+}
+
+.input-box{
+    margin:2.5px;
+    width:14.5rem;
+    font-size: 3rem;
+    padding: 0 5px;
+    margin-top:20px;
+    border-radius: 15px;
+    text-align: right;
+    background-color: black;
+    border-style: none;
+    color: white;
+}

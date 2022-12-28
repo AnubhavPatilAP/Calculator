@@ -1,0 +1,25 @@
+.container{
+    width: 280px;
+    margin:auto;
+    background-color: black;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.flex{
+    display:flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+
+.blink{
+    animation: blinker 1.7s linear infinite;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
