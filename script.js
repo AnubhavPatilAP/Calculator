@@ -7,8 +7,12 @@ for(let i = 0; i<document.querySelectorAll(".btn").length; i++){
         if(e.target.innerHTML == "="){
             result.value = eval(string);
         }
-        else if(e.target.innerHTML == "C"){
+        else if(e.target.innerHTML == "AC"){
             string = "";
+            result.value = string;
+        }
+        else if(e.target.innerHTML =="←"){
+            string = result.value.slice(0, result.value.length -1)
             result.value = string;
         }
         else if(e.target.innerHTML =="%"){
